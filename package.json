@@ -1,0 +1,21 @@
+{
+  "name": "hunting-mem-leaks",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "node-inspector": "^0.12.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug1": "node-debug example1.js",
+    "debug2": "node-debug example2.js",
+    "debug-calc": "node-debug --expose-gc --trace-gc ./calc-server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
